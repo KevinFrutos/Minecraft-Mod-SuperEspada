@@ -1,5 +1,6 @@
 package com.kevinfrutos.superespada;
 
+import com.kevinfrutos.superespada.block.ModBlocks;
 import com.kevinfrutos.superespada.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -34,6 +35,7 @@ public class SuperEspada
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

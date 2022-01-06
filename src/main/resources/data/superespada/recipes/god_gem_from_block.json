@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "superespada:god_gem_block"
+    }
+  ],
+  "result": {
+    "item": "superespada:god_gem",
+    "count": 9
+  }
+}
