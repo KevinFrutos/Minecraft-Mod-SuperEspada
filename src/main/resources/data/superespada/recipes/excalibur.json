@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "nbt": "{Enchantments:[{lvl:10s,id:\"minecraft:mending\"},{lvl:10s,id:\"minecraft:sharpness\"}]}",
+    "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:mending\"},{lvl:10s,id:\"minecraft:sharpness\"}]}",
     "item": "superespada:excalibur",
     "type": "minecraft:item_nbt"
   }
