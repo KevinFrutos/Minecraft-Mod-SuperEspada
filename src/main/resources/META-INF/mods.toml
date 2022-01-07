@@ -20,7 +20,7 @@ modId="superespada" #mandatory
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
 #version="${file.jarVersion}" #mandatory
-version="1.0.2"
+version="1.0.3"
  # A display name for the mod
 displayName="Super Sword" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -39,6 +39,7 @@ En este mod puedes conseguir una super espada!
 
 Assets from:
     https://limezu.itch.io/
+    https://xenodroidz.itch.io/
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional

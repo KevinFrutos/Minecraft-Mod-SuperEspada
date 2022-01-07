@@ -1,6 +1,10 @@
 {
   "item.superespada.god_gem": "God Gem",
   "item.superespada.excalibur": "EXCALIBUR",
+  "item.superespada.god_gem_helmet": "God Gem Helmet",
+  "item.superespada.god_gem_chestplate": "God Gem Chestplate",
+  "item.superespada.god_gem_leggings": "God Gem Leggings",
+  "item.superespada.god_gem_boots": "God Gem Boots",
   "block.superespada.god_gem_block": "God Gem Block",
   "itemGroup.superEspadaTab": "Super Sword"
 }
