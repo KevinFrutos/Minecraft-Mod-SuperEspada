@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "superespada:god_gem"
+    }
+  },
+  "result": {
+    "item": "superespada:god_gem_leggings"
+  }
+}
