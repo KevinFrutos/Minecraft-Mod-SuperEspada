@@ -2,9 +2,12 @@ package com.kevinfrutos.superespada.item;
 
 import com.kevinfrutos.superespada.SuperEspada;
 import com.kevinfrutos.superespada.item.custom.ExcaliburItem;
+import com.kevinfrutos.superespada.item.custom.MultitoolItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +25,11 @@ public class ModItems {
     public static final RegistryObject<Item> EXCALIBUR = ITEMS.register("excalibur",
             () -> new ExcaliburItem(ModItemTier.GOD_GEM, 5, 5f,
                     new Item.Properties().maxStackSize(1).group(ModItemGroup.SUPERESPADA_GROUP)));
+
+    // TOOLS
+    public static final RegistryObject<Item> MULTITOOL = ITEMS.register("multitool",
+            () -> new MultitoolItem(ModItemTier.GOD_GEM, 2, 1f,
+                    new Item.Properties().addToolType(ToolType.AXE, 10).addToolType(ToolType.SHOVEL, 10).addToolType(ToolType.HOE, 10).group(ModItemGroup.SUPERESPADA_GROUP)));
 
     //ARMOR
     public static final RegistryObject<Item> GOD_GEM_HELMET = ITEMS.register("god_gem_helmet",

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "superespada:god_gem"
+    }
+  },
+  "result": {
+    "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:mending\"},{lvl:10s,id:\"minecraft:efficiency\"}]}",
+    "item": "superespada:multitool",
+    "type": "minecraft:item_nbt"
+  }
+}
